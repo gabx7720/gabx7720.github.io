@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gabriel Serrudo</title>
+        <link rel="stylesheet" href="estilos.css" />
+        <script type="text/javascript" src="microjuego.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navegacion-web">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="CV.html">Currículum Vitae</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="microjuego.html">Microjuego</a></li>
+                </ul>
+            </nav>
+            <h1>Microjuego</h1>
+        </header>
+        
+        <main>
+            <h2>Adivina el número que he generado.</h2>
+            <p>Es un número entre el 1 y el 100</p>
+            <p><output id="resultado">Adelante!</output></p>
+            
+            <!-- Barra de progreso de intentos -->
+            <p><label for="intentos">Intentos:</label> <progress id="intentos" value="0" max="10"></progress></p>
+            
+            <input type="number" id="campo-id" />
+            <input type="submit" id="field_submit" value="¡Adivina!" onclick="comparar_numero()">
+        </main>
+
+
+        <footer>
+            <p>&copy; 2025 Gabriel Serrudo</p>
+            <nav class="navegacion-web">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="CV.html">Currículum Vitae</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="microjuego.html">Microjuego</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
